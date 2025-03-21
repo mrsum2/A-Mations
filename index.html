@@ -9,13 +9,18 @@
         }
         button {
             margin: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        #buttonContainer {
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
     <h1>Stickman Animation Game</h1>
     <canvas id="gameCanvas" width="500" height="300"></canvas>
-    <div>
+    <div id="buttonContainer">
         <button onclick="playAnimation('punch')">Punch</button>
         <button onclick="playAnimation('kick')">Kick</button>
         <button onclick="playAnimation('backflip')">Backflip</button>
